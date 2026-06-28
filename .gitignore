@@ -1,0 +1,11 @@
+# Claude Code 個人ローカル設定（開発者ごとに異なる／共有しない）
+# ※ 厳密一致パターン。末尾に * を付けないこと。
+#   付けると settings.local.json.template まで巻き込んで無視され、型を共有できなくなる。
+.claude/settings.local.json
+
+# 共有するもの（参考・明示）:
+#   .claude/settings.json                  … チーム共通設定（権限/フック/プラグイン）
+#   .claude/settings.local.json.template   … Bedrock 個人設定の雛形（コピーして使う）
+
+# macOS
+.DS_Store
