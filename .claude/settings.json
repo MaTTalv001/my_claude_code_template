@@ -2,16 +2,13 @@
   "$schema": "https://json-schema.org/claude-code-settings.json",
 
   "extraKnownMarketplaces": {
-    "superpowers-marketplace": {
-      "source": { "source": "github", "repo": "obra/superpowers-marketplace" }
-    },
     "anthropic-agent-skills": {
       "source": { "source": "github", "repo": "anthropics/skills" }
     }
   },
 
   "enabledPlugins": {
-    "superpowers@superpowers-marketplace": true,
+    "superpowers@claude-plugins-official": true,
     "frontend-design@claude-plugins-official": true,
     "document-skills@anthropic-agent-skills": true
   },
